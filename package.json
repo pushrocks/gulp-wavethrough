@@ -29,7 +29,7 @@
     "through2": "2.0.0"
   },
   "devDependencies": {
-    "gulp": "3.9.0",
+    "gulp": "3.9.1",
     "gulp-typescript": "2.10.0",
     "pushrocks": "^1.0.23"
   }
