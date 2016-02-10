@@ -4,7 +4,7 @@
   "description": "wavethrough a gulp .pipe() stop, useful for conditional gulp pipe behaviour.",
   "main": "index.js",
   "scripts": {
-    "test": "(cd ts/compile && node compile.js)",
+    "test": "(npmts)",
     "reinstall": "(rm -r node_modules && npm install)",
     "release": "(npm test) && (git pull origin master && npm version patch && git push origin master && git checkout release && git merge master && git push origin release && git checkout master)",
     "update": "(git checkout master && git pull origin master) && (npm install)",
@@ -19,18 +19,16 @@
     "jade",
     "template"
   ],
-  "author": "Smart Coordination GmbH <office@push.rocks> (https://push.rocks)",
+  "author": "Lossless GmbH <office@push.rocks> (https://push.rocks)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/pushrocks/gulp-wavethrough/issues"
   },
   "homepage": "https://github.com/pushrocks/gulp-wavethrough",
   "dependencies": {
-    "through2": "2.0.0"
+    "through2": "2.0.1"
   },
   "devDependencies": {
-    "gulp": "3.9.0",
-    "gulp-typescript": "2.10.0",
-    "pushrocks": "^1.0.23"
+    "npmts": "^2.2.2"
   }
 }

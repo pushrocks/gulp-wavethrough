@@ -1,4 +1,6 @@
-/// <reference path="typings/tsd.d.ts" />
+#!/usr/bin/env node
+
+/// <reference path="typings/main.d.ts" />
 var through = require("through2");
 module.exports = function () {
     return through.obj(function (file, enc, cb) {
