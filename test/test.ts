@@ -1,7 +1,7 @@
-/// <reference path="typings/main.d.ts" />
-var gulpWaveThrough = require("../index.js");
+/// <reference path="../ts/typings/main.d.ts" />
+var gulpWaveThrough = require("../dist/index.js");
 
-plugins = {
+var plugins = {
     beautylog: require("beautylog"),
     gulp: require("gulp"),
     g:{
