@@ -29,7 +29,7 @@
     "through2": "2.0.1"
   },
   "devDependencies": {
-    "beautylog": "^2.1.1",
+    "beautylog": "^3.0.0",
     "gulp": "^3.9.1",
     "gulp-function": "^1.1.1",
     "npmts": "^3.0.1"
