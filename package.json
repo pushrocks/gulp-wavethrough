@@ -31,7 +31,7 @@
   "devDependencies": {
     "beautylog": "^2.1.1",
     "gulp": "^3.9.1",
-    "gulp-function": "^1.1.1",
+    "gulp-function": "^1.2.0",
     "npmts": "^3.0.1"
   }
 }
