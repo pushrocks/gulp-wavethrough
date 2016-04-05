@@ -1,6 +1,6 @@
 {
   "name": "gulp-wavethrough",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "wavethrough a gulp .pipe() stop, useful for conditional gulp pipe behaviour.",
   "main": "dist/index.js",
   "scripts": {
